@@ -12,32 +12,69 @@
   <section id="main" class="main">
     <header class="header">
       <div class="header__container">
-        <img src="./assets/icons/common/logo.svg" alt="Hormunity">
-        <nav class="header__links">
+        <img src="./assets/icons/common/logo.svg" class="header__logo logo" alt="Hormunity">
+        <nav class="header__links header__links_desktop">
           <a href="/" class="header__link">Shop</a>
           <a href="/" class="header__link">Labworks</a>
           <a href="/" class="header__link">Blood tests</a>
           <a href="/" class="header__link">Artives</a>
           <a href="/" class="header__link">About <img src="./assets/icons/header/arrow.svg" alt=""></a>
         </nav>
+        <button type="button" class="header__burger">
+          <span class="header__burger_line"></span>
+          <span class="header__burger_line"></span>
+          <span class="header__burger_line"></span>
+        </button>
       </div>
-      <div class="header__container">
+      <div class="header__container header__container_aside">
         <div class="header__buttons">
-          <button class="header__button">
+          <button type="button" class="header__button">
             <img src="./assets/icons/header/search.svg" alt="search">
           </button>
-          <button class="header__button">
+          <button type="button" class="header__button">
             <img src="./assets/icons/header/profile.svg" alt="profile">
           </button>
-          <button class="header__button">
+          <button type="button" class="header__button">
             <img src="./assets/icons/header/cart.svg" alt="cart">
             <span class="header__button_counter">2</span>
           </button>
         </div>
-        <button class="header__button_main">Start testing</button>
+        <button type="button" class="header__button_main">Start testing</button>
       </div>
     </header>
+
+    <div class="header__modal">
+      <div class="header__modal_backdrop"></div>
+      <div class="header__modal_inner">
+        <button type="button" class="header__modal_close">
+          <span class="header__modal_close_bar"></span>
+          <span class="header__modal_close_bar"></span>
+        </button>
+        <nav class="header__links header__links_modal">
+          <a href="/" class="header__link">Shop</a>
+          <a href="/" class="header__link">Labworks</a>
+          <a href="/" class="header__link">Blood tests</a>
+          <a href="/" class="header__link">Artives</a>
+          <a href="/" class="header__link">About <img src="./assets/icons/header/arrow.svg" alt=""></a>
+        </nav>
+        <div class="header__buttons">
+          <button type="button" class="header__button">
+            <img src="./assets/icons/header/search.svg" alt="search">
+          </button>
+          <button type="button" class="header__button">
+            <img src="./assets/icons/header/profile.svg" alt="profile">
+          </button>
+          <button type="button" class="header__button">
+            <img src="./assets/icons/header/cart.svg" alt="cart">
+            <span class="header__button_counter">2</span>
+          </button>
+        </div>
+        <button type="button" class="header__button_main">Start testing</button>
+      </div>
+    </div>
   </section>
+
+  <script src="./assets/sctipts/main.js" defer></script>
 </body>
 
 </html>
