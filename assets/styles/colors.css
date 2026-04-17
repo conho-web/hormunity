@@ -1,0 +1,16 @@
+:root {
+  --daylight-ff-100: #FFFFFF;
+  --daylight-ff-75: rgba(255, 255, 255, 0.75);
+  --daylight-ff-40: rgba(255, 255, 255, 0.40);
+  --daylight-ff-006: rgba(255, 255, 255, 0.6);
+
+  --shark-1f-100: #1F1F1F;
+  --shark-1f-75: rgba(31, 31, 31, 0.75);
+  --shark-1f-40: rgba(31, 31, 31, 0.40);
+
+  --error-element: #D05E3E;
+  --warning-element: #E5A749;
+
+  --forest-element: #658754;
+  --forest-fill: #48613C;
+}

@@ -1,0 +1,9 @@
+@import url(./assets/styles/reset.css);
+@import url(./assets/styles/colors.css);
+
+html {
+  font-size: 16rem;
+  font-family: "Inter";
+  background-color: var(--daylight-ff-100);
+  color: var(--daylight-ff-100);
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Saccharomycin boulardi",
+    "subtitle": "Monoglyceride fish oil",
+    "price": 245.99,
+    "old_price": null,
+    "img": "",
+    "popular": false,
+    "is_favorite": false
+  },
+  {
+    "title": "Micellized",
+    "subtitle": "Vitamin A",
+    "price": 28.99,
+    "old_price": 44.99,
+    "img": "",
+    "popular": false,
+    "is_favorite": true
+  },
+  {
+    "title": "Detox boost",
+    "subtitle": "Glutathione production",
+    "price": 25.99,
+    "old_price": null,
+    "img": "",
+    "popular": false,
+    "is_favorite": false
+  },
+  {
+    "title": "Saccharomycin boulardi",
+    "subtitle": "Monoglyceride fish oil",
+    "price": 25.99,
+    "old_price": null,
+    "img": "",
+    "popular": false,
+    "is_favorite": false
+  },
+  {
+    "title": "Micellized",
+    "subtitle": "Vitamin A",
+    "price": 25.99,
+    "old_price": null,
+    "img": "",
+    "popular": false,
+    "is_favorite": false
+  },
+  {
+    "title": "Micellized",
+    "subtitle": "Vitamin A",
+    "price": 253.99,
+    "old_price": 444.99,
+    "img": "",
+    "popular": false,
+    "is_favorite": false
+  },
+  {
+    "title": "Saccharomycin boulardi",
+    "subtitle": "Monoglyceride fish oil",
+    "price": 25.99,
+    "old_price": null,
+    "img": "",
+    "popular": true,
+    "is_favorite": false
+  },
+  {
+    "title": "Micellized",
+    "subtitle": "Vitamin A",
+    "price": 10.99,
+    "old_price": 44.99,
+    "img": "",
+    "popular": false,
+    "is_favorite": true
+  }
+]
