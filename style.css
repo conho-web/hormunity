@@ -1,9 +1,104 @@
 @import url(./assets/styles/reset.css);
 @import url(./assets/styles/colors.css);
+@import url(./assets/styles/fonts.css);
+@import url(./assets/styles/common.css);
 
-html {
-  font-size: 16rem;
-  font-family: "Inter";
-  background-color: var(--daylight-ff-100);
+/* main */
+.main {
+  background-image: url(./assets/img/main/background-main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100dvh;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 82.5rem;
+  margin: 0 auto;
+  padding: 1.25rem 3.75rem;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__links {
+  display: flex;
+  gap: 2rem;
+  margin: 0 0 0 2.25rem;
+}
+
+.header__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
   color: var(--daylight-ff-100);
+  transition: all 0.2s ease;
+}
+
+.header__link:hover {
+  color: var(--daylight-ff-75);
+}
+
+.header__link>img {
+  margin: 0 0 0 0.375rem;
+}
+
+.header__buttons {
+  display: flex;
+  gap: 0.75rem;
+  margin: 0 0.75rem 0 0;
+}
+
+.header__button {
+  position: relative;
+  width: 2.875rem;
+  height: 2.875rem;
+  background: var(--daylight-ff-006);
+  border: 1px solid var(--daylight-ff-40);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.header__button:hover {
+  background: var(--daylight-ff-40);
+  transition: all 0.2s ease;
+}
+
+.header__button_counter {
+  position: absolute;
+  top: -2px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--daylight-ff-100);
+  color: var(--shark-1f-100);
+  border-radius: 50%;
+  font-weight: 500;
+  font-size: 0.625rem;
+}
+
+.header__button_main {
+  width: 12.75rem;
+  height: 3rem;
+  background-color: var(--shark-1f-100);
+  border-radius: 6rem;
+  color: var(--daylight-ff-100);
+  font-size: 1.125rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.header__button_main:hover {
+  background-color: var(--shark-1f-75);
+  transition: all 0.2s ease;
 }
