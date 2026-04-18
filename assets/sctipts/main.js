@@ -72,3 +72,13 @@ const swiper = new Swiper('.mySwiper', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+window.addEventListener('scroll', function() {
+  const header = document.querySelector('.header__wrapper');
+  
+  if (window.scrollY > 50) {
+    header.classList.add('header--scrolled');
+  } else {
+    header.classList.remove('header--scrolled');
+  }
+});
