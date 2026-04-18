@@ -333,6 +333,12 @@
   border: none;
   cursor: pointer;
   background-color: transparent;
+  transition: all 0.2s ease;
+}
+
+.main__button:hover {
+  background-color: var(--daylight-ff-75);
+  transition: all 0.2s ease;
 }
 
 .main__button-main {
@@ -410,6 +416,11 @@
   border: none;
   justify-content: center;
   cursor: pointer;
+}
+
+.main__novelty_button:hover {
+  background-color: var(--daylight-ff-75);
+  transition: all 0.2s ease;
 }
 
 .main__novelty_text {
@@ -631,6 +642,11 @@
   cursor: pointer;
 }
 
+.card__button-add:hover {
+  background-color: var(--shark-1f-75);
+  transition: all 0.2s ease;
+}
+
 .swiper-button-next, .swiper-button-prev {
   color: var(--shark-1f-75);
   width: 2.5rem;
@@ -698,6 +714,12 @@
   height: 2.25rem;
   background-color: var(--daylight-ff-006);
   border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.footer__social-network:hover {
+  background-color: var(--daylight-ff-40);
+  transition: all 0.2s ease;
 }
 
 .footer__links {
@@ -724,6 +746,11 @@
   margin: 0 0 1rem 0;
   text-decoration: none;
   line-height: 135%;
+}
+
+.footer__link:hover {
+  color: var(--daylight-ff-100);
+  transition: all 0.2s ease;
 }
 
 .footer__link_light {
@@ -780,10 +807,12 @@
   line-height: 120%;
   color: var(--daylight-ff-40);
   text-decoration: none;
+  transition: all 0.2s ease;
 }
 
 .footer__copyright_link:hover {
   color: var(--daylight-ff-100);
+  transition: all 0.2s ease;
 }
 
 @media (max-width: 1280px) {
@@ -931,5 +960,20 @@
   }
   .footer__container {
     padding: 1.875rem 1rem;
+  }
+  .products__section {
+    padding: 3.25rem 2.75rem;
+  }
+  .products__title {
+    font-size: 2rem;
+  }
+  .card__title {
+    font-size: 1.25rem;
+  }
+  .card__button-add {
+    width: 6rem;
+  }
+  .card__image-wrapper img {
+    max-width: 14rem;
   }
 }
